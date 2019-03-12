@@ -1,0 +1,449 @@
+/* Cores EvenCard */
+.bg-purple {
+    background-color: #7a1753 !important;
+}
+
+.color-purple {
+    color: #7a1753 !important;
+}
+
+.bg-deep-purple {
+    background-color: #673AB7 !important;
+}
+
+.color-deep-purple {
+    color: #673AB7 !important;
+}
+
+
+.toggle-switch--purple .toggle-switch__checkbox:checked ~ .toggle-switch__helper:after {
+    background-color: #7a1753;
+}
+
+[data-ma-theme="purple"] .header,
+[data-ma-theme="purple"] .login__block__header,
+[data-ma-theme="purple"] .login__block__btn {
+    background-color: #7a1753;
+    z-index: 1050;
+}
+
+[data-ma-theme="purple"] .navigation__sub--active > a,
+[data-ma-theme="purple"] .navigation__active > a,
+[data-ma-theme="purple"] .navigation__active:before {
+    color: #7a1753;
+}
+
+[data-ma-theme="purple"] .top-menu > li.active {
+    box-shadow: inset 0 -2px 0 #7a1753;
+}
+
+.evencard_imgLogoHeader {
+    width: 14% !important;
+    margin-left: 40% !important;
+    cursor: pointer;
+}
+
+.evencard_divLogoHeader {
+    width: 100% !important;
+}
+/* ****** */
+
+.EvenCard_IconModal_Information,
+.EvenCard_IconModal_Alert,
+.EvenCard_IconModal_Sucess {
+    font-size: 4rem !important;
+    padding-right: 1rem;
+}
+
+.EvenCard_IconModal_Information {
+    color: #3F51B5;
+}
+
+.EvenCard_IconModal_Alert {
+    color: #f5c942;
+}
+
+.EvenCard_IconModal_Sucess {
+    color: #32c787;
+}
+
+#EvenCard_Modal_Information_title,
+#EvenCard_Modal_Alert_title,
+#EvenCard_Modal_Sucess_title {
+    margin-top: -21px;
+    margin-left: 44%;
+}
+
+.EvenCard_Modal_Marca_Purple {
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(45deg, transparent 75%, #7a1753 75.4%);
+    width: 101%;
+    height: 100%;
+    position: absolute;
+    margin: -7%;
+    z-index: -1;
+}
+
+.EvenCard_Modal_Marca_Yelow {
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(-45deg, transparent 85%, #fab314 85.4%);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.swal2-modal.swal2-show {
+    overflow: hidden !important;
+}
+
+.swal2-loading > button {
+    border-left-color: #7a1753 !important;
+    border-right-color: #7a1753 !important;
+    opacity: 1 !important;
+}
+
+.dataTables_scrollHeadInner {
+    box-sizing: inherit !important;
+}
+
+.EvenCard_mnuInferior {
+    float: right;
+    padding: 0 1.6rem 0 0;
+}
+
+    .EvenCard_mnuInferior > button {
+        font-size: 1.3em;
+        float: right;
+        margin-right: 5px;
+    }
+
+.EvenCard_icoCancel {
+    -ms-transform: rotate(43deg);
+    -webkit-transform: rotate(43deg);
+    transform: rotate(43deg);
+    font-weight: 900;
+}
+
+.EvenCard_btnAdicionar,
+.EvenCard_btnPesquisar {
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+.EvenCard_trRemoved {
+    color: #d1d1d1;
+    text-decoration-line: line-through;
+    background-color: #f0f0f0;
+}
+
+    .EvenCard_trRemoved > td > a {
+        color: #d1d1d1 !important;
+        text-decoration-line: line-through !important;
+        background-color: #f0f0f0 !important;
+    }
+
+.EvenCard_aEsqueciSenha {
+    position: absolute !important;
+    margin-top: 25px !important;
+    margin-left: -54px !important;
+    color: #707070 !important;
+}
+
+.dataTables_scroll,
+.DTFC_LeftWrapper {
+    padding-top: 10px;
+}
+
+.EvenCard_lblAvatarEdit {
+    margin-left: 10px;
+}
+
+.EvenCard_imgAvatarEdit {
+    border: solid 3px transparent;
+    border-color: transparent;
+}
+
+.EvenCard_card {
+    padding: 1rem 1.3rem 0 1.3rem !important;
+    border-bottom: solid 1px #fab314 !important;
+    margin-bottom: 15px !important;
+}
+
+.k-button.k-button-icon {
+    display: none;
+}
+
+.itemValido_false {
+    background-color: #ff6b68;
+    color: #fff;
+}
+
+.taxaValida_-1 {
+    color: #ff6b68;
+    font-weight: 900;
+}
+
+.taxaValida_1 {
+    color: #ff85af;
+    font-weight: 900;
+}
+
+.taxaValida_2,
+.taxaValorValido_false {
+    color: purple;
+    font-weight: 900;
+}
+
+.EvenCard_divGroupModal {
+    /*border-bottom: 1px solid #ddd;*/
+}
+
+    .EvenCard_divGroupModal > h6 {
+        height: 15px;
+    }
+
+.EvenCard_lblTitleModal {
+    width: 100%;
+    border-bottom: solid 1px #7a1753;
+    margin-left: -10px;
+    color: #7a1753 !important;
+}
+
+.k-grid-excel, .k-grid-pdf {
+    padding: 0 !important;
+    border-style: solid !important;
+    border-color: #f0f0f0 !important;
+    border-width: 1px !important;
+}
+
+.k-grid-toolbar {
+    padding: 5px 12px 2px 0px !important;
+    height: 0px !important;
+    border: none !important;
+    float: right !important;
+}
+
+.k-header.k-grid-toolbar {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.EvenCard_sppnCollapseFiltros {
+    float: right;
+    color: #7a1753 !important;
+}
+
+/*.form-group > input{
+    border-left-style:solid !important;
+    border-left-width:1px !important;
+    border-left-color:#ddd;
+
+    border-top-style:solid !important;
+    border-top-width:1px !important;
+    border-top-color:#ddd;
+
+    border-right-style:solid !important;
+    border-right-width:1px !important;
+    border-right-color:#ddd;
+}*/
+
+,
+.EvenCard_btnGrid {
+	,
+    padding: 0.3rem !important;
+}
+
+.EvenCard_divCollapseTitle {
+    width: 100%;
+}
+
+.EvenCard_divBorderBottom {
+    border-bottom: solid 1px #fab314 !important;
+    margin-bottom: 0.8rem;
+}
+
+.itemLojaNaoCadastrada_true {
+    background-color: #FBD9D9;
+    color: #000;
+}
+
+div.collapse {
+    width: 100% !important;
+}
+
+.k-hierarchy-cell {
+    border-style: solid !important;
+    border-width: 0 1px 0 0 !important;
+    padding: .4em .3em !important;
+}
+
+.EvenCard_icoDetailGrid {
+    color: #fff !important;
+    background-color: #00BCD4 !important;
+    width: 20px !important;
+    height: 15px !important;
+    border-radius: 3px !important;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12) !important;
+    border: 0 !important;
+}
+
+.EvenCard_PosRepetido {
+    background-color: #d066e2 !important;
+    color: #fff !important;
+}
+
+.EvenCard_divFiltrosExtras {
+    width: 75%;
+    display: none;
+}
+
+    .EvenCard_divFiltrosExtras > button {
+        float: right;
+        margin-top: 0;
+        margin-left: 0.5rem;
+    }
+
+.EvenCard_KendoGrid {
+    margin-bottom: 15px;
+}
+
+.EvenCard_rowSelected {
+    background-color: #7a1753 !important;
+    color: #fff !important;
+}
+
+.EvenCard_iInfoTable {
+    font-size: 1.8em;
+}
+
+.EvenCard_divFloatLeft {
+    float: left !important;
+}
+
+.EvenCard_liMenuInicial {
+    font-size: 1.2em;
+}
+
+.select2-selection.select2-selection--single {
+    min-height: 33.88px !important;
+}
+
+.k-virtual-scrollable-wrap td {
+    white-space: nowrap;
+}
+
+.k-grid-content td,
+.k-virtual-scrollable-wrap tr {
+    height: 20px !important;
+    max-height: 20px !important;
+}
+
+.k-grid tr td:not(.k-detail-cell) div {
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.EvenCard_iInfoVenda_false {
+    color: rgba(255, 107, 104, 0.74);
+    padding-left: 0.2em;
+    padding-top: 2px;
+    position: absolute;
+}
+
+.EvenCard_iInfoVenda_true {
+    display: none;
+}
+
+.k-detail-row > td.k-detail-cell > div > div.k-grid-header {
+    margin-top: 0px !important;
+}
+
+/*.EvenCard_tableKendo{
+    mari
+}*/
+
+.btn-color-even-purple {
+    background-color: #7a1753 !important;
+}
+
+.EvenCard_divBoletoAsaasOVERDUE > div > .listview__heading {
+    color: #ff5652 !important;
+    font-weight: bold;
+}
+
+.EvenCard_divBoletoAsaasOVERDUE {
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+}
+
+.EvenCard_divBoletoAsaasText {
+    text-align: center;
+}
+
+    .EvenCard_divBoletoAsaasText > div {
+        color: #39bbb0;
+    }
+
+.EvenCard_divMenuExibicao {
+    padding-left: 0px;
+    padding-bottom: 5px;
+}
+
+#EvenCard_divAjudaVideo {
+    width: 100%;
+    position: relative;
+    margin-top: -23px;
+    text-align: right;
+    padding-bottom: 4px;
+}
+
+#EvenCard_divAjudaVideo > span {
+    background-color: #7a1753;
+    padding: 3px 5px 3px 24px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#EvenCard_divAjudaVideo > span > i {
+    font-size: 2em !important;
+    position: absolute;
+    margin-left: -24px;
+    margin-top: -3.5px;
+}
+
+#EvenCard_divAjudaLinks{
+    margin-top: -38px;
+    color: #7a1753 !important;
+    float: left;
+    width: 100%;
+}
+
+#EvenCard_divAjudaLinks > span{
+    float: left;
+    width:100%;
+}
+
+#EvenCard_divAjudaLinks > span > a{
+    color: #7a1753 !important;
+}
+
+#EvenCard_divAjudaRedeSociais{
+    text-align:center;
+    color: #7a1753 !important;
+}
+
+#EvenCard_divAjudaRedeSociais > span{
+    font-size: 1.1em;
+}
+
+#EvenCard_divAjudaRedeSociais > span > a{
+    color: #7a1753 !important;
+    font-size: 1.6em;
+}
+
+
+
+
+
